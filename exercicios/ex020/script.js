@@ -37,5 +37,5 @@ if (inicio < fim) {
         resultado.innerHTML += `${c} \u{1F449}`
     }
 }
- resultado.innerHTML += '🏁'
+ resultado.innerHTML += `\u{1F3C1}`
 }
