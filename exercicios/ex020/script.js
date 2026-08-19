@@ -30,11 +30,11 @@ resultado.innerHTML = 'Contagem: '
 
 if (inicio < fim) {
     for (let c = inicio;c <= fim;c += passo) {
-        resultado.innerHTML += `${c} 👉`
+        resultado.innerHTML += `${c} \u{1F449}`
     }
 } else {
     for (let c = inicio;c >= fim;c -= passo) {
-        resultado.innerHTML += `${c} 👉`
+        resultado.innerHTML += `${c} \u{1F449}`
     }
 }
  resultado.innerHTML += '🏁'
